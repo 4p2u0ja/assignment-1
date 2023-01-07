@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg{ height: 800px;
+
+    background: no-repeat;
+    background-image: url('banner1.png');
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    font-display:right ;
+
+}
+  .textover{  
+    width:25%;
+font-size: large;}
+    p{align-items: flex-end;
+      font-size:small;   
+    }
+    .btn{font-size: medium;
+    color:white;
+background-color:orange;}
+
+
+
+
+
