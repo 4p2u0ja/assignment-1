@@ -15,7 +15,8 @@
 }
   .textover{  
     width:25%;
-font-size: large;}
+font-size: large;
+f;}
     p{align-items: flex-end;
       font-size:small;   
     }
@@ -25,6 +26,44 @@ background-color:orange;
 border: none;}
 
 
+      .wall{position: absolute;
+        width: 416px;
+        height: 400px;
+        left: 880px;
+        top: 1147px;
+        }
 
 
+.person{position: absolute;
+  width: 569px;
+  height: 723.3px;
+  left: 206px;
+  top: 939px;
+  }
+  .icons{position:absolute;
+  width: 1141px;
+  height: 299.96px;
+  left: 230px;
+  top: 17.3px;
+  }  
 
+ .plans{position: absolute;
+  width: 17px;
+  height: 47px;
+  left: 71px;
+  top: 17px; 
+  
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  
+  color: #151414;} 
+  .ok{position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+    display: flex;
+    }
