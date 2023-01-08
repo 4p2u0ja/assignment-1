@@ -13,11 +13,24 @@
     font-display:right ;
 
 }
-  .textover{  
-    width:25%;
-font-size: large;
-f;}
-    p{align-items: flex-end;
+  .textover{ position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: right;
+    
+    /* Dark 01 */
+    
+    color: #151414;
+     }
+     .m{align-items: flex-end;
       font-size:small;   
     }
     .btn{font-size: medium;
@@ -32,34 +45,24 @@ border: none;}
         left: 880px;
         top: 1147px;
         }
-
-
 .person{position: absolute;
   width: 569px;
   height: 723.3px;
   left: 206px;
   top: 939px;
   }
-  .icons{position:absolute;
-  width: 1141px;
-  height: 299.96px;
-  left: 230px;
-  top: 17.3px;
-  }  
 
- .plans{position: absolute;
-  width: 17px;
-  height: 47px;
-  left: 71px;
-  top: 17px; 
-  
+ .plan{position:absolute;
+  width: 179px;
+height: 47px;
+left: 711px;
+top: 1789px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  
-  color: #151414;} 
+  color: #151414;}  
   .ok{position: absolute;
     width: 1141px;
     height: 299.96px;
@@ -67,3 +70,57 @@ border: none;}
     top: 1792.3px;
     display: flex;
     }
+nav ul{display: flex;}
+nav li{list-style: none;
+margin-right: 200px;
+margin-top: 100px;}
+  
+    .lvl{font-size: large;
+   font-weight: 800; 
+    align-items: center;
+    font-family: 'Work Sans';text-align: center;
+    }
+    .go {font-size: 15px;
+    font-family:'Work Sans' ;
+    font-weight: 500;
+    font-style: normal;
+    text-align:center;
+    
+    left: 253px;
+    }
+    .hi{position: absolute;
+      width: 459px;
+      height: 182px;
+      left: 294px;
+      top: 2275.3px;
+     background-image: url('../images/watch.png') ;
+     background-color: coral;
+     position: absolute;
+width: 1140px;
+height: 300px;
+left: 230px;
+top: 2221.96px;
+
+}
+  .c{ 
+       font-size :90px ;
+      font-style: normal;
+      font-family:'Work Sans';
+      font-display: left;
+    text-align: left;
+    color:aliceblue;
+  }
+  .call{
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2393.3px;
+    font-size:larger;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black, 30px;
+    }
+.black{
+  width: 1600px;
+  height: 577px;
+  }
