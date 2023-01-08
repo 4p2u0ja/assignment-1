@@ -45,7 +45,8 @@ border: none;}
         left: 880px;
         top: 1147px;
         }
-.person{position: absolute;
+.person{ 
+  position: bottom;
   width: 569px;
   height: 723.3px;
   left: 206px;
@@ -120,7 +121,12 @@ top: 2221.96px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: black, 30px;
     }
-.black{
+ .black{
   width: 1600px;
   height: 577px;
+  display: flex;
+  
   }
+.k{color: black;
+background-color:chartreuse;}
+    
